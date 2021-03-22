@@ -15,6 +15,9 @@ Simply use `python main.py` to run the code.
 2. Change `model_name` to change model. `bert-base-uncased` is a large model, you may want to change it to smaller ones to save memory. But expect a performance drop when you use a smaller model. Suggested smaller models, like `prajjwal1/bert-tiny`, are in the comments of the code. Visit [huggingface website](https://huggingface.co/) for more available models. You can probably change it to other non Bert based models, like GPT2, for example.
 3. Training parameters. You may want to adjust `learning_rate` and `num_epochs` to change the learning rate of stochastic gradient descent, and the number of training epochs, respectively.
 
+## GPU support
+
+This code automatically supports the use of GPU. See [this article](https://discuss.pytorch.org/t/how-to-change-the-default-device-of-gpu-device-ids-0/1041/22), for example, on how to select which GPU to use when you have multiple.
 
 ## Understading the code
 
