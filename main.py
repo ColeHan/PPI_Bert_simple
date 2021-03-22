@@ -1,7 +1,7 @@
 from pathlib import Path
 
 # model_name = "bert-base-uncased"  # This is a big model. Use other models if your computer have memory problems.
-model_name = "prajjwal1/bert-tiny"  # This is a big model. Use other models if your computer have memory problems.
+model_name = "prajjwal1/bert-tiny"
 # prajjwal1/bert-tiny (L=2, H=128)
 # prajjwal1/bert-mini (L=4, H=256)
 # prajjwal1/bert-small (L=4, H=512)
